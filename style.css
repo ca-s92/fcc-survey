@@ -1,3 +1,5 @@
   body {
-    background-image: image();
+    background-image: url("/jimmy-chang-unsplash-staircase.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
