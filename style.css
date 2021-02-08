@@ -1,16 +1,17 @@
   body {
     box-sizing: border-box;
     margin: 2em;
-    background-color: #01737f;
+    background-color: #04b3c1;
   }
 
   #staircase {
+    max-width: 50%;
     display: block;
     float: right;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right;
+    background-position: ;
   }
 
   #survey {
