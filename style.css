@@ -1,13 +1,12 @@
   body {
     background-image: url("/jimmy-chang-unsplash-staircasesml.jpg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     background-color: #01737f;
   }
 
   #survey {
-    max-width: 50%;
-    margin: 0px 13em;
-    padding: 20px;
+    max-width: 100%;
   }
