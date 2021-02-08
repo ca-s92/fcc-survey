@@ -1,17 +1,13 @@
   body {
-    box-sizing: border-box;
-    margin: 2em;
     background-color: #04b3c1;
+    font-family: "Chivo", sans-serif;
   }
 
   #staircase {
-    max-width: 50%;
-    display: block;
+    max-width: 100%;
+    height: auto;
     float: right;
-    background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: ;
   }
 
   #survey {
