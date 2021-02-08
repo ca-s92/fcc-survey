@@ -1,5 +1,5 @@
   body {
-    display: inline-block;
+    display: grid;
 
     background-color: #01737f;
   }
@@ -13,5 +13,5 @@
   }
 
   #survey {
-    max-width: 100%;
+    
   }
