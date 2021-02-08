@@ -1,6 +1,7 @@
   body {
     background-color: #04b3c1;
     font-family: "Chivo", sans-serif;
+    display: flex;
   }
 
   #staircase {
@@ -8,6 +9,14 @@
     height: auto;
     float: right;
     background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-family: "Archivo Black", Arial, Helvetica, sans-serif;
+  }
+
+  #description {
+    font-style: italic;
   }
 
   #survey {
