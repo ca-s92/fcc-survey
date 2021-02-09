@@ -19,14 +19,33 @@
   }
 
   #survey {
+    border: 1px solid #000000;
   }
 
-  h1 {
-    font-family: "archivo black", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: ;
+  #greet {
+    font-family: "Martel", sans-serif;
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
   }
 
   #description {
     font-family: ;
     font-style: italic;
+  }
+  
+  fieldset {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-block-start: 0em;
+    padding-inline-start: 0em;
+    padding-inline-end: 0em;
+    padding-block-end: 0em;
+    min-inline-size: 0%;
+    border: 0;
+  }
+
+  legend {
+    padding: 0;
   }
