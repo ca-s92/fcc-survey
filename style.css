@@ -1,6 +1,7 @@
   body {
     background-color: #04b3c1;
-    font-family: sans-serif;
+    font-family: "chivo", sans-serif;
+    font-weight: 400;
     display: flex;
   }
 
@@ -21,7 +22,8 @@
   }
 
   h1 {
-    font-family: "Chivo", sans-serif;
+    font-family: "archivo black", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: ;
   }
 
   #description {
