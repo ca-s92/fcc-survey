@@ -2,15 +2,25 @@
     background-color: #04b3c1;
     font-family: "Chivo", sans-serif;
     display: flex;
+    flex-direction: row;
   }
 
   #staircase {
     max-width: 100%;
     top: 0;
     left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     float: right;
     background-repeat: no-repeat;
-    position: absolute;
+    /*position: absolute;*/
+  }
+
+  #intro, #survey {
+    display: flex;
+    flex-direction: column;
+  
   }
 
   h1 {
@@ -19,8 +29,4 @@
 
   #description {
     font-style: italic;
-  }
-
-  #survey {
-    
   }
