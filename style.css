@@ -3,6 +3,7 @@
     font-family: "Roboto Mono", sans-serif;
     font-weight: 400;
     display: flex;
+    flex-direction: column;
   }
 
 
@@ -22,7 +23,7 @@
     left: 0;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     order: 2;
     justify-content: flex-start;
     background-repeat: no-repeat;
@@ -32,7 +33,7 @@
 
   #survey {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-end;
     float: right;
     order: 3;
@@ -44,9 +45,9 @@
     font-family: "Martel", serif;
     font-style: italic;
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    float: right;
+    flex-direction: row;
+    /*justify-content:space-around;
+    float: right;*/
   }
   
   fieldset {
