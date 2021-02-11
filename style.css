@@ -6,16 +6,11 @@
     flex-direction: column;
   }
 
-
   #greet {
     font-family: "Martel", sans-serif;
-    font-size: 25px;
-    float: right;
     order: 1;
-    background-color: ;
     color: #000;
   }
-
 
   #staircase {
     max-width: 100%;
@@ -27,27 +22,29 @@
     order: 2;
     justify-content: flex-start;
     background-repeat: no-repeat;
-    border-right: 1px solid #000;
     /*position: absolute;*/
   }
 
   #survey {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
     float: right;
-    order: 3;
+    order: 4;
     border-bottom: 1px solid #000000;
     border-right: 1px solid #000;
+  }
+
+  #intro {
+    display: flex;
+    flex-direction: column;
   }
 
   #description {
     font-family: "Martel", serif;
     font-style: italic;
     display: flex;
-    flex-direction: row;
-    /*justify-content:space-around;
-    float: right;*/
+    flex-direction: column;
   }
   
   fieldset {
