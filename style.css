@@ -1,6 +1,6 @@
   body {
     background-color: #04b3c1;
-    font-family: "chivo", sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     font-weight: 400;
     display: flex;
   }
@@ -9,19 +9,19 @@
     max-width: 100%;
     top: 0;
     left: 0;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    float: left;
     background-repeat: no-repeat;
     border-right: 1px solid #000;
-    position: absolute;
+    /*position: absolute;*/
   }
 
   #survey {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: flex-end;
     float: right;
     border-bottom: 1px solid #000000;
     border-right: 1px solid #000;
@@ -32,7 +32,7 @@
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    /*justify-content:space-around;*/
     float: right;
     background-color: ;
     color: #fff;
