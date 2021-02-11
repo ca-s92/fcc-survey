@@ -5,13 +5,27 @@
     display: flex;
   }
 
+
+  #greet {
+    font-family: "Martel", sans-serif;
+    font-size: 25px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    background-color: ;
+    color: #fff;
+    border-bottom: 1px solid #000;
+  }
+
+
   #staircase {
     max-width: 100%;
     top: 0;
     left: 0;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     background-repeat: no-repeat;
     border-right: 1px solid #000;
@@ -25,18 +39,6 @@
     float: right;
     border-bottom: 1px solid #000000;
     border-right: 1px solid #000;
-  }
-
-  #greet {
-    font-family: "Martel", sans-serif;
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    /*justify-content:space-around;*/
-    float: right;
-    background-color: ;
-    color: #fff;
-    border-bottom: 1px solid #000;
   }
 
   #description {
