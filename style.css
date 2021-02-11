@@ -10,12 +10,9 @@
     font-family: "Martel", sans-serif;
     font-size: 25px;
     float: right;
-    display: flex;
-    flex-direction: column;
     order: 1;
     background-color: ;
-    color: #fff;
-    border-bottom: 1px solid #000;
+    color: #000;
   }
 
 
@@ -26,6 +23,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    order: 2;
     justify-content: flex-start;
     background-repeat: no-repeat;
     border-right: 1px solid #000;
@@ -37,6 +35,7 @@
     flex-direction: column;
     justify-content: flex-end;
     float: right;
+    order: 3;
     border-bottom: 1px solid #000000;
     border-right: 1px solid #000;
   }
