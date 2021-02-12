@@ -3,24 +3,23 @@
     font-family: "Roboto Mono", sans-serif;
     font-weight: 400;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #greet {
     font-family: "Martel", sans-serif;
-    order: 1;
+    display: flex;
+    flex-direction: column;
     color: #000;
   }
 
   #staircase {
     max-width: 100%;
-    top: 0;
-    left: 0;
+    /*top: 0;
+    left: 0;*/ 
     height: auto;
     display: flex;
-    flex-direction: row;
-    order: 2;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
     background-repeat: no-repeat;
     /*position: absolute;*/
   }
@@ -30,7 +29,7 @@
     flex-direction: column;
     justify-content: flex-end;
     float: right;
-    order: 4;
+    order: ;
     border-bottom: 1px solid #000000;
     border-right: 1px solid #000;
   }
@@ -38,6 +37,7 @@
   #intro {
     display: flex;
     flex-direction: column;
+    order: ;
   }
 
   #description {
