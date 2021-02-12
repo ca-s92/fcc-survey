@@ -1,7 +1,6 @@
   body {
     background-color: #04b3c1;
     font-family: "Roboto Mono", sans-serif;
-    display: flex;
   }
 
   fieldset {
@@ -15,15 +14,23 @@
     border: 0;
   }
 
-  #staircase {
+  #greet {
 
+  }
+
+  #staircase {
+    display: flex;
+    order: -1;
+    max-width: 100%;
+    height: auto;
   }
 
   #intro {
-
-
+    
   }
 
   #survey {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
