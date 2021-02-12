@@ -1,9 +1,7 @@
   body {
     background-color: #04b3c1;
     font-family: "Roboto Mono", sans-serif;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 4em 50% 50%;
+    display: flex;
   }
 
   fieldset {
@@ -18,9 +16,7 @@
   }
 
   #staircase {
-    display: grid;
-    justify-self: end;
-    
+
   }
 
   #intro {
