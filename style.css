@@ -1,8 +1,11 @@
   body {
     background-color: #04b3c1;
     font-family: "Roboto Mono", sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 4em 50% 50%;
   }
-  
+
   fieldset {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -12,4 +15,19 @@
     padding-block-end: 0em;
     min-inline-size: 0%;
     border: 0;
+  }
+
+  #staircase {
+    display: grid;
+    justify-self: end;
+    
+  }
+
+  #intro {
+
+
+  }
+
+  #survey {
+
   }
