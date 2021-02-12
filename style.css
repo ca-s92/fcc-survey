@@ -1,50 +1,6 @@
   body {
     background-color: #04b3c1;
     font-family: "Roboto Mono", sans-serif;
-    font-weight: 400;
-    display: flex;
-    flex-direction: row;
-  }
-
-  #greet {
-    font-family: "Martel", sans-serif;
-    display: flex;
-    flex-direction: column;
-    color: #000;
-  }
-
-  #staircase {
-    max-width: 100%;
-    /*top: 0;
-    left: 0;*/ 
-    height: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    background-repeat: no-repeat;
-    /*position: absolute;*/
-  }
-
-  #survey {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    float: right;
-    order: ;
-    border-bottom: 1px solid #000000;
-    border-right: 1px solid #000;
-  }
-
-  #intro {
-    display: flex;
-    flex-direction: column;
-    order: ;
-  }
-
-  #description {
-    font-family: "Martel", serif;
-    font-style: italic;
-    display: flex;
-    flex-direction: column;
   }
   
   fieldset {
@@ -56,11 +12,4 @@
     padding-block-end: 0em;
     min-inline-size: 0%;
     border: 0;
-  }
-
-  #nom, #emailaddress, #episode {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 20px;
   }
