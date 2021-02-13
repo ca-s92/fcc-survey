@@ -15,22 +15,28 @@
   }
 
   #greet {
-
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    border-bottom: 1px solid #000;
   }
 
   #staircase {
-    display: flex;
-    order: -1;
+    display: inline;
+    position: fixed;
+    /*order: -1;*/
     max-width: 100%;
     height: auto;
   }
 
-  #intro {
-    
-  }
+  #intro, #description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    }
 
   #survey {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: right;
+    border-left: 1px solid #000;
   }
