@@ -21,12 +21,13 @@
     border-bottom: 1px solid #000;
   }
 
-  #staircase {
-    display: inline;
-    position: fixed;
-    /*order: -1;*/
+  img {
     max-width: 100%;
     height: auto;
+    display: inline;
+    /*position: fixed;
+    overflow: hidden;
+    order: -1;*/
   }
 
   #intro, #description {
