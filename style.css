@@ -25,10 +25,14 @@
   img {
     max-width: 100%;
     height: auto;
-    display: inline;
+    display: inline-block
     /*position: fixed;
     overflow: hidden;
     order: -1;*/
+  }
+
+  #staircase {
+    display: inline;
   }
 
   #intro {
@@ -38,9 +42,7 @@
     order: 0;
     }
 
-  #survey {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
+  form {
+    display: inline-block;
     /*border-left: 1px solid #000;*/
   }
