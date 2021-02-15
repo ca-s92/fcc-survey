@@ -1,6 +1,7 @@
   body {
     background-image: linear-gradient(to bottom right, #1f949e,#04b3c1, #fff);
     font-family: "Roboto Mono", sans-serif;
+    display: inline-block;
   }
 
   fieldset {
@@ -30,15 +31,16 @@
     order: -1;*/
   }
 
-  #subtitle, #description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  #intro {
+    display: inline-block;
+    /*flex-direction: row;
+    align-items: flex-start;*/
+    order: 0;
     }
 
   #survey {
     display: flex;
     flex-direction: row;
     align-content: flex-end;
-    border-left: 1px solid #000;
+    /*border-left: 1px solid #000;*/
   }
