@@ -32,7 +32,8 @@
   }
 
   #staircase {
-    display: inline;
+    display: flex;
+    flex-direction: row;
   }
 
   #intro {
@@ -43,6 +44,7 @@
     }
 
   form {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     /*border-left: 1px solid #000;*/
   }
