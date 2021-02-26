@@ -1,7 +1,7 @@
   body {
     background-image: linear-gradient(to bottom right, #1f949e,#04b3c1, #fff);
     font-family: "Roboto Mono", sans-serif;
-    display: inline-block;
+    display: flex;
   }
 
   fieldset {
@@ -16,7 +16,7 @@
   }
 
   #greet {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     /*flex-wrap: wrap;*/
     border-bottom: 1px solid #000;
