@@ -4,7 +4,7 @@
     display: grid;
     /*grid-template-areas:
     "header header header"
-    "advert content content"
+    "img content content"
     "footer footer footer";*/
   }
 
@@ -27,6 +27,8 @@
   }
 
   img {
+    display: grid;
+    grid-area: img;
     max-width: 100%;
     height: auto;
     /*display: inline-block;
@@ -43,6 +45,7 @@
   form {
     display: grid;
     grid-area: content;
+    grid-gap:  
     /*flex-direction: column;
     border-left: 1px solid #000;*/
   }
