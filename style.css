@@ -19,7 +19,7 @@
     border: 0;
   }
 
-  #greet {
+  #greet, #intro {
     display: grid;
     grid-area: header;
     /*flex-wrap: wrap;*/
@@ -40,14 +40,9 @@
     flex-direction: row;*/
   }
 
-  #intro {
-    /*display: inline-block;
-    flex-direction: row;
-    align-items: flex-start;*/
-    }
-
   form {
-    /*display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-area: content;
+    /*flex-direction: column;
     border-left: 1px solid #000;*/
   }
