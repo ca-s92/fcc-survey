@@ -2,10 +2,10 @@
     background-image: linear-gradient(to bottom right, #1f949e,#04b3c1, #fff);
     font-family: "Roboto Mono", sans-serif;
     display: grid;
-    /*grid-template-areas:
+    grid-template-areas:
     "header header header"
-    "img content content"
-    "footer footer footer";*/
+    "image content content"
+    "footer footer footer";
   }
 
   fieldset {
@@ -28,12 +28,11 @@
 
   img {
     display: grid;
-    grid-area: img;
+    grid-area: image;
     max-width: 100%;
     height: auto;
     /*display: inline-block;
     position: fixed;
-    overflow: hidden;
     order: -1;*/
   }
 
@@ -45,7 +44,7 @@
   form {
     display: grid;
     grid-area: content;
-    grid-gap:  
+    line-height: 20px;
     /*flex-direction: column;
     border-left: 1px solid #000;*/
   }
